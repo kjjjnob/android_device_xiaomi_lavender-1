@@ -1,0 +1,2 @@
+# Google Camera
+allow platform_app camera_prop:file { open getattr };

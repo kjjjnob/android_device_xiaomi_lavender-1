@@ -1,2 +1,5 @@
+allow platform_app sysfs_kgsl:dir search;
+allow platform_app sysfs_kgsl:lnk_file read;
+
 # Google Camera
 allow platform_app camera_prop:file { open getattr };

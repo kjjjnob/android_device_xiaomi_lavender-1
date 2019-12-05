@@ -177,3 +177,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.min.fling_velocity=160 \
     ro.max.fling_velocity=20000
+
+# DPI
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.lcd_density=403
